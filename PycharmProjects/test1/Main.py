@@ -17,7 +17,7 @@ page_location = int(input("Enter page number: "))
 
 page = pdfReader.getPage(page_location)
 text = page.extractText()
-new_rate = 120
+new_rate = 125
 speaker.setProperty("rate", new_rate)
 speaker.say(text)
 speaker.runAndWait()
